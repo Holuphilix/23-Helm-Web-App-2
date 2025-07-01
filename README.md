@@ -214,18 +214,6 @@ http://127.0.0.1:8081
 **Screenshot:**
 ![Ngix Website](./Images/13.http_ngnix.png)
 
-
-##  Version Control
-
-After verifying everything works:
-
-```bash
-git init
-git add .
-git commit -m "Customize Helm chart with NGINX and static resource limits"
-git remote add origin https://github.com/<your-username>/helm-web-app-2.git
-git push -u origin main
-```
 ## 🗃️ Task 4: Git Staging, Committing, and Pushing Code to GitHub
 ### Step 1: Stage and Commit the Template to Git
 In this step, I will add the website files to the Git repository, configure my global Git settings, and make an initial commit with a descriptive message.
@@ -241,7 +229,7 @@ git config --global user.email "oluphilix@gmail.com"
 git commit -m "Customize Helm chart with NGINX and static resource limits"
 ```
 **Screenshot:**
-![Git Stage and Commit Ngnix Site](./Images/8.git_config.png)
+![Git Stage and Commit Ngnix Site](./Images/16.git_config_add_commit.png)
 ### Step 2: Push the code to your Github repository
 After initializing your Git repository and adding your WordPress site template, the next step is to push your code to a remote repository on GitHub. This step is crucial for version control and collaboration.
 - Create a Remote Repository on GitHub: Log into your GitHub account and create a new repository named __helm-web-app-2__. Leave the repository empty without initializing it with a README, .gitignore, or license.
@@ -258,4 +246,33 @@ git branch -M main
 git push -u origin main
 ```
 **Screenshot:**
-![Git Push origin Main](./Images/9.git_push.png)
+![Git Push origin Main](./Images/17.git_push_origin.png)
+
+## 🎯 Conclusion
+
+In this project, you successfully deployed an NGINX web server to a Kubernetes cluster using Helm charts. You learned how to:
+
+- Customize Helm charts by editing values.yaml and template files,
+
+- Set resource requests and limits to optimize container performance,
+
+- Use Minikube with Hyper-V to run a local Kubernetes cluster,
+
+- Deploy your Helm chart and verify running resources,
+
+- Access your application locally via port forwarding,
+
+- Initialize a Git repository and push your project to GitHub for version control and collaboration.
+
+This project demonstrates the power of Helm for Kubernetes application management and how infrastructure-as-code practices can streamline application deployment workflows.
+
+You are now equipped with a foundational skill set to create, customize, deploy, and manage applications on Kubernetes using Helm. These skills can be extended to more complex applications and production environments, paving the way for scalable and maintainable cloud-native deployments.
+
+## Author
+**Philip Oluwaseyi Oludolamu**
+DevOps Engineer 
+
+* ✉️ Email: [oluphilix@gmail.com](mailto:oluphilix@gmail.com)
+* 🔗 LinkedIn: [linkedin.com/in/philipoludolamu](https://www.linkedin.com/in/philipoludolamu)
+
+*Completed on July 01, 2025*
