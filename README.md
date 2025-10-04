@@ -1,4 +1,4 @@
-# 🚀 Helm Chart Customization — NGINX Web App
+# 🚀 Mini Project: Helm Chart Customization — NGINX Web App
 
 This project demonstrates how to deploy an NGINX web server to a Kubernetes cluster using Helm. It includes customizing a Helm chart, configuring resources, and deploying the application.
 
@@ -270,6 +270,7 @@ You are now equipped with a foundational skill set to create, customize, deploy,
 
 ## Author
 **Philip Oluwaseyi Oludolamu**
+
 DevOps Engineer 
 
 * ✉️ Email: [oluphilix@gmail.com](mailto:oluphilix@gmail.com)
